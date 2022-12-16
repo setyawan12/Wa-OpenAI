@@ -65,7 +65,7 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
         if (budy) {
             try {
             // Jika apikey limit silahkan ganti apikey openainya di bawah ini 
-            const keyopenai = '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'
+            const keyopenai = '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'
             const configuration = new Configuration({
               apiKey: keyopenai, 
             });
